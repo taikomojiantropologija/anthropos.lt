@@ -1050,11 +1050,11 @@ button:focus {
   background-color: #61D2B4;
 }
 .single-team:hover .overlay-team {
-  opacity: 0.7;
+  opacity: 1;
 }
 .text-team-overlay {
 color: white;
-  font-size: 10px;
+  font-size: 14px;
   position: absolute;
   top: 50%;
   left: 50%;
