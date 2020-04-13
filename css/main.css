@@ -404,6 +404,7 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
+	height: 600px;
   background: url(../img/hero-area.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
@@ -593,7 +594,11 @@ button:focus {
     color: #61D2B4;
   }
 }
-
+@media screen and (min-width: 900px) {
+#hero-area {
+    height: 600px;
+    }
+}
 /* ==========================================================================
   5. Services section
    ========================================================================== */
