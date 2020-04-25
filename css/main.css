@@ -598,8 +598,6 @@ button:focus {
 #hero-area {
     height: 600px;
     }
-}
-@media screen and (min-width: 900px) {
 #maistas {
     height: 600px;
     }
