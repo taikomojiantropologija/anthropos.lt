@@ -549,6 +549,25 @@ button:focus {
   #nav-main li a.nav-link {
     padding-top: 18px;
   }
+	#maistas .contents h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 25px;
+} 
+#maistas .contents {
+  padding: 200px 0 130px;
+ }
+ .aprasymas{
+	margin-top: 100px;
+	margin-right: 200px;
+	margin-bottom: 100px;
+	margin-left: 200px;
+	font-size: 24px;
+    line-height: 34px;
+    text-align: justify;
+    text-indent: 50px;
+}
 }
 
 .navbar-toggler {
@@ -593,6 +612,31 @@ button:focus {
     background: #f8f9fa;
     color: #61D2B4;
   }
+  #maistas .contents h1 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  }
+  #maistas {
+  max-height: 300px;
+  }
+  #maistas .contents {
+  padding: 150px 0 130px;
+  max-height: 300px;
+}
+  #maistas .contents {
+  padding: 150px 0 130px;}
+	.aprasymas{
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	font-size: 10px;
+	/*line-height: 0.5;*/
+	text-align: justify;
+	/*text-indent: 50px;*/
+}
 }
 @media screen and (min-width: 900px) {
 #hero-area {
@@ -611,6 +655,15 @@ button:focus {
     text-align: justify;
     text-indent: 50px;
 	}
+	#maistas .contents h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 25px;
+} 
+#maistas .contents {
+  padding: 200px 0 130px;
+  }
 }
 
 /* ==========================================================================
@@ -1321,7 +1374,7 @@ footer {
 /*========================================================
 16. Blog Articles
 ========================================================*/
-.aprasymas{
+/*.aprasymas{
 	margin-top: 100px;
 	margin-right: 200px;
 	margin-bottom: 100px;
@@ -1330,7 +1383,7 @@ footer {
     line-height: 34px;
     text-align: justify;
     text-indent: 50px;
-}
+}*/
 
 #maistas {
   height: 600px;
@@ -1351,16 +1404,16 @@ footer {
   opacity: 0.9;
 }
 
-#maistas .contents {
+/*#maistas .contents {
   padding: 200px 0 130px;
-}
+}*/
 
-#maistas .contents h1 {
+/*#maistas .contents h1 {
   color: #fff;
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 25px;
-}
+}*/
 
 #maistas .contents p {
   font-size: 14px;
