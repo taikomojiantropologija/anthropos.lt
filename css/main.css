@@ -815,6 +815,11 @@ button:focus {
   margin-bottom: 30px;
 }
 
+.video-promo .video-promo-content a {
+  color: #fff;
+  margin-bottom: 30px;
+ }
+
 .video-promo .video-promo-content p {
   margin-bottom: 30px;
 }
