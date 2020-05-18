@@ -81,6 +81,8 @@ ul {
 
 ul li {
   list-style: none;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 a:hover,
