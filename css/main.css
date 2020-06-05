@@ -572,6 +572,9 @@ button:focus {
     text-align: justify;
     text-indent: 50px;
 }
+	{
+img.responsive { width: 200px; }
+}
 }
 
 .navbar-toggler {
@@ -641,7 +644,11 @@ button:focus {
 	text-align: justify;
 	/*text-indent: 50px;*/
 }
+	{
+img.responsive { width: 200px; }
 }
+}
+
 @media screen and (min-width: 900px) {
 #hero-area {
     height: 600px;
@@ -668,6 +675,9 @@ button:focus {
 #maistas .contents {
   padding: 200px 0 130px;
   }
+	{
+img.responsive { width: 400px; }
+}
 }
 
 /* ==========================================================================
