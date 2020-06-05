@@ -30,6 +30,8 @@
   14. CONTACT SECTION
   15. FOOTER SECTION
     -15.1 COMING SOON PAGE
+  16. REPORTS
+  17. BLOG ARTICLES
   ------------------------------------- */
 /* ==========================================================================
    1. IMPORT GOOGLE FONTS
@@ -1384,6 +1386,10 @@ footer {
 .ataskaitos {
    text-indent: 0px;
 }
+
+.ataskaitos a {
+  color: #000000;
+ }
 
 .column {
   float: left;
