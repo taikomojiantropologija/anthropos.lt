@@ -572,9 +572,8 @@ button:focus {
     text-align: justify;
     text-indent: 50px;
 }
-	{
-img.responsive { width: 200px; }
-}
+.column {
+    width: 50%;
 }
 
 .navbar-toggler {
@@ -644,8 +643,8 @@ img.responsive { width: 200px; }
 	text-align: justify;
 	/*text-indent: 50px;*/
 }
-	{
-img.responsive { width: 200px; }
+	.column {
+    width: 100%;
 }
 }
 
@@ -675,9 +674,7 @@ img.responsive { width: 200px; }
 #maistas .contents {
   padding: 200px 0 130px;
   }
-	{
-img.responsive { width: 400px; }
-}
+	
 }
 
 /* ==========================================================================
