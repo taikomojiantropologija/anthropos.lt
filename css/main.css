@@ -1405,15 +1405,6 @@ footer {
   display: table;
 }
 
-.report-img {
-  overflow: hidden;
-  display: block;
-  position: relative;
-}
-
-.report-img img {
-  width: 100%;
-}
 /*========================================================
 17. Blog Articles
 ========================================================*/
