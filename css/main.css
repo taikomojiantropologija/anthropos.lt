@@ -572,9 +572,6 @@ button:focus {
     text-align: justify;
     text-indent: 50px;
 }
-.column {
-    width: 50%;
-}
 
 .navbar-toggler {
   display: none;
@@ -642,9 +639,6 @@ button:focus {
 	/*line-height: 0.5;*/
 	text-align: justify;
 	/*text-indent: 50px;*/
-}
-	.column {
-    width: 100%;
 }
 }
 
