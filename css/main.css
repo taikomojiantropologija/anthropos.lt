@@ -562,6 +562,15 @@ button:focus {
 #maistas .contents {
   padding: 200px 0 130px;
  }
+#veiksmas .contents h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 25px;
+} 
+#veiksmas .contents {
+  padding: 200px 0 130px;
+ }
  .aprasymas{
 	margin-top: 100px;
 	margin-right: 200px;
@@ -641,6 +650,31 @@ button:focus {
 	text-align: justify;
 	/*text-indent: 50px;*/
 }
+	 #veiksmas .contents h1 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  }
+  #veiksmas {
+  max-height: 300px;
+  }
+  #veiksmas .contents {
+  padding: 150px 0 130px;
+  max-height: 300px;
+}
+  #veiksmas .contents {
+  padding: 150px 0 130px;}
+	.aprasymas{
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	font-size: 10px;
+	/*line-height: 0.5;*/
+	text-align: justify;
+	/*text-indent: 50px;*/
+}
 }
 
 @media screen and (min-width: 900px) {
@@ -648,6 +682,9 @@ button:focus {
     height: 600px;
     }
 #maistas {
+    height: 600px;
+    }
+#veiksmas {
     height: 600px;
     }
 .aprasymas{
@@ -667,6 +704,15 @@ button:focus {
   margin-bottom: 25px;
 } 
 #maistas .contents {
+  padding: 200px 0 130px;
+  }
+	#veiksmas .contents h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 25px;
+} 
+#veiksmas .contents {
   padding: 200px 0 130px;
   }
 	
