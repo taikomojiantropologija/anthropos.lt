@@ -702,10 +702,10 @@ button:focus {
 }
 	#kulturureprezentavimas {
 	 height: 100px;
-		/*width: auto;
+		
 		margin-top:60px;
-  background: url(../img/blog/baneris5.jpg) fixed no-repeat;*/
-  background-size: contain;
+  background: url(../img/blog/baneris5.jpg) fixed no-repeat;
+  background-size: cover;
   color: #fff;
   overflow: hidden;
   position: relative;
