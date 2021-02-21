@@ -701,8 +701,14 @@ button:focus {
 	/*text-indent: 50px;*/
 }
 	#kulturureprezentavimas {
-	display:none;	
-	}
+	 height: auto;
+		width: 200px;
+  background: url(../img/blog/baneris5.jpg) fixed no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
 }
 
 @media screen and (min-width: 900px) {
