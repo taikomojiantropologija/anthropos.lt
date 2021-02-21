@@ -700,6 +700,9 @@ button:focus {
 	text-align: justify;
 	/*text-indent: 50px;*/
 }
+	#kulturureprezentavimas {
+	display:none;	
+	}
 }
 
 @media screen and (min-width: 900px) {
