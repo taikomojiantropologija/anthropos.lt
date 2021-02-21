@@ -550,6 +550,15 @@ button:focus {
 .loupeicon{
   display: none;
   }
+#kulturureprezentavimas {
+	 height: 600px;
+  background: url(../img/blog/baneris5.jpg) fixed no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1829,11 +1838,3 @@ text-align: center;
 
 
 
-#kulturureprezentavimas {
-	 height: 600px;
-  background: url(../img/blog/baneris5.jpg) fixed no-repeat;
-  background-size: cover;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-}
