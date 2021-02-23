@@ -1778,6 +1778,14 @@ text-align: center;
   .opacity {
   opacity: 0.6;
   }
+	#kulturureprezentavimas {
+		
+  background: url(../img/blog/baneris5.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
 }
 
 .loupeicon {
