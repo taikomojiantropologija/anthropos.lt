@@ -1788,6 +1788,12 @@ text-align: center;
   height: 150px;
   margin-top: 50px;
 }
+	.brands_slider_container {
+		height: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background: #fff
+	}
 }
 
 .loupeicon {
