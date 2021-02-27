@@ -1781,10 +1781,12 @@ text-align: center;
 	#kulturureprezentavimas {
 		
   background: url(../img/blog/baneris5.jpg) no-repeat;
-  background-size: cover;
+  background-size: contain;
   color: #fff;
   overflow: hidden;
   position: relative;
+  height: 150px;
+  margin-top: 50px;
 }
 }
 
