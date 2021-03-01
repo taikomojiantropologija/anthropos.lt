@@ -1914,3 +1914,6 @@ text-align: center;
 .brands_next {
     right: 40px
 }
+.owl-carousel .owl-item img {
+    height: 150px;
+}
