@@ -1917,3 +1917,13 @@ text-align: center;
 .owl-carousel .owl-item img {
     height: 150px;
 }
+
+@media only screen and (max-width: 466px){
+.brands_slider_container {
+    height: 130px;
+    padding-left: 1px;
+    padding-right: 1px; 
+    background: #fff;
+   
+}
+}
