@@ -1864,8 +1864,8 @@ text-align: center;
 
 .brands_slider_container {
     height: 130px;
-    padding-left: 97px;
-    padding-right: 97px;
+   /* padding-left: 97px;
+    padding-right: 97px;*/
     background: #fff
 }
 
