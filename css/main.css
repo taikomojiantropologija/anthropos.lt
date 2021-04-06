@@ -1930,10 +1930,12 @@ text-align: center;
 padding-left: 30px;
 padding-right:30px;
 }
-}
-
-
-.responsiveimg {
+	.responsiveimg {
   width: 100%;
+  max-width: 400px;
   height: auto;
 }
+}
+
+
+
