@@ -1,1 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Bootstrap, Parallax, Template, Registration, Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Anthropos">
+    <title>Anthropos</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/line-icons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">    
+    <link rel="stylesheet" href="css/responsive.css">
+
+  </head>
+  <body>
+
+    <!-- Header Section Start -->
+    <header id="veiksmas" data-stellar-background-ratio="0.5">    
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a href="index.html" class="navbar-brand"><img class="img-fluid" src="img/logo1.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="lnr lnr-menu"></i>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+               <li class="nav-item">
+                <a class="nav-link page-scroll" href="index.html">Anthropos</a>
+              </li>
+           <li class="nav-item">
+              <a class="nav-link page-scroll" href="#blog">Tekstai</a>
+            </li>
+		<li class="nav-item">
+                <a class="nav-link page-scroll" href="#contact">Kontaktai</a>
+              </li>
+		 <li class="nav-item">
+                <a class="nav-link page-scroll" href="index.html">LT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="en.html">EN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu">
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="index.html">Anthropos</a>
+              </li>
+           <li class="nav-item">
+              <a class="nav-link page-scroll" href="#blog">Tekstai</a>
+            </li>
+		<li class="nav-item">
+                <a class="nav-link page-scroll" href="#contact">Kontaktai</a>
+              </li>
+		 <li class="nav-item">
+                <a class="nav-link page-scroll" href="index.html">LT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="en.html">EN</a>
+              </li>
+        </ul>
+        <!-- Mobile Menu End -->          
+    
+        </nav>
+      <!-- Navbar End -->   
+      <div class="container">      
+        <div class="row justify-content-md-center">
+          <div class="col-md-10">
+            <div class="contents text-center">
+              <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s" align="center">Mokslas, kuris tiria ar/ir daro pokytį?</h1>
+              <!--<p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms" vertical-align="bottom" align="right"></p>-->
+              <!-- <a href="#" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Download</a>-->
+            </div>
+          </div>
+        </div> 
+      </div>           
+    </header>
+    <!-- Header Section End --> 
+    <div class="aprasymas">
+      
+      <p>
+       Turbūt kiekvienas studijuojantis ar studijavęs socialinius ir humanitarinius mokslus tokius kaip antropologija, sociologija, etnologija, filosofija ir pan. yra matęs susirūpinusius artimųjų ar draugų žvilgsnius ir girdėjo klausimą - “O ką tu ketini su tuo veikti?”. Nors šis klausimas dažnai atspindi žinių apie šias disciplinas ir jų galimybes trūkumą, ne paslaptis, kad klausimai apie tai, kaip tikslingai ir prasmingai išnaudoti studijų ir tyrimų metu sukauptas žinias bei įgūdžius dažnai kyla ir mums patiems. Ar tikrai tyrėjų vieta apsiriboja vien universitetu? Juk socialinių mokslų žinias galima pritaikyti ir paversti ir konkrečiais veiksmais. Kaip ne tik tirti, bet ir kurti pokytį visuomenėje, pritaikant akademijoje sukauptas žinias?
+    </p>
+      
+      <p>
+        <b>„Socialiniai mokslai, socialiniam veiksmui" projekto idėja</b>
+      </p>
+
+  <p>     
+     Socialinių ir humanitarinių mokslų studentai turi reikiamą išsilavinimą ir supratimą apie šiandieninius socialinius iššūkius, socialinę kaitą ir globalias žmonijos problemas, tačiau paprastai neturi pakankamai žinių, įrankių ar motyvacijos šias žinias pritaikyti veiksmui. Daugybė bakalauro ir magistro darbų su naudinga informacija, įžvalgomis ir atsakymais kaip būtų galima spręsti įvairias problemas taip ir lieka gulėti universitetų archyvuose niekad nepasiekę didesnės auditorijos. Universitetų programose neskiriama pakankamo dėmesio šiems klausimams ir reikalingiems įgūdžiams formuoti. Retas, kuris turėjo progą išmokti kaip tinkamai suplanuoti advokatavimo kampaniją, efektyviai viešai komunikuoti socialines problemas, rengti protestus ar mitingus, vertinti įvairius politinius procesus ir daryti jiems įtaką, kurti ir įgyvendinti socialinius projektus ar edukacines programas.
+  </p>
+    
+  <p>
+    Baltijos šalyse vykdomo projekto „Socialiniai mokslai, socialiniam veiksmui” idėja gimė pastebėjus dažną žinių trūkumą kaip daryti pokyčius visuomenėje ir kviečia drauge mokytis taikyti socialinių ir humanitarinių mokslų žinias bei metodus inicijuojant ir vykdant visuomeninę ir aktyvizmo veiklą. Yra nemažai programų, skirtų jauniems žmonėms padėti kurti savo verslus, startuolius ar socialinius verslus, tačiau dauguma taip vadinamojo trečiojo sektoriaus galimybių lieka nepaliečiamos. Projekto metu siekiama apžvelgt nevyriausybinių organizacijų bei socialiai angažuotų socialinių mokslų atstovų galimybes. Taip siekiama praplėsti akademijos ir praktikos sąvokas, kurios dažnai apipintos neoliberaliais ekonominiais standartais, pabrėžiant pasirengimą darbo rinkai. Tačiau šiuo projektu siekiama kalbėti apie tai, kaip kritinė mintis yra įgalinama ir gali plisti už universitetų sienų.
+  </p>
+      
+      <p>
+        <b>Socialinių ir humanitarinių mokslų taikomumas</b>
+      </p>
+    
+  <p> 
+    Taikyti socialinius ir humanitarinius mokslus galima labai įvairiai. Antropologijoje skiriamos net kelios taikomosios veiklos šakos: taikomieji tyrimai, įsitraukusioji arba angažuotoji (angl. engaged) antropologija ir viešoji (angl. public) antropologija. Pirmoji šaka, taikomieji kokybiniai tyrimai, yra vykdomi įvairioms įmonėms, valdžios institucijoms, organizacijoms ar projektams. Čia naudojami etnografiniai metodai, laikomasi antropologinės minties ir etikos. Antropologai, pavyzdžiui, dirba kuriant ir testuojant bei gerinant įvairias technologijas. Štai Melissa Cefkin dirba Nissan, kur tiria savaeigių mašinų ir pėsčiųjų interakcijas. Atliekami tyrimai dizaino, urbanistikos, viešosios politikos ir kitose srityse, tiriant įvairius žmonių gyvenimo aspektus, siekiant atskleisti nelygybes ir veikimo principus įvairioms vystymo ir socialinio teisingumo ar gerovės programoms, atlieka įvairių procesų ir projektų vertinimus. Antropologų taikomi metodai, kaip dalyvaujantys stebėjimai, giluminiai interviu, padeda iš arti pažinti tiriamųjų kasdienybę, suprasti žmonių patirtis ir įvairius procesus, politines priemones ar technologijas ar paslaugas padaryti labiau orientuotus į žmogų.
+  </p>  
+    
+  <p>
+    Įsitraukusioji ir viešoji antropologijos kartais naudojamos kaip sinonimai, o kartais žymi tikslinės auditorijos skirtumą ir šių antropologijų tikslus. Apskritai, tai reiškia, kad tyrimų ir domėjimosi laukų klausimai yra keliami viešai, pateikiami paprastai ir suprantamai visuomenei bei skatinamos diskusijos įvairiuose lygmenyse. Įsitraukusioji antropologija yra labiau nukreipta į aktyvizmą ir advokatavimą, kai tuo tarpu viešoji antropologija daugiau skirta komunikuoti antropologines žinias, tyrimus ir įžvalgas visuomenei. Šiomis antropologijomis užsiimatys asmenys dalyvauja viešose paskaitose ir diskusijose, televizijos ar radijo laidose, kalbinami įvairiais klausimais kaip ekspertai. Vienas žymiausių šiuolaikinių antropologų norvegas Thomas Hyland Eriksen turbūt būtų tinkamas pavyzdys, mat į jį ne tik kreipiasi žiniasklaida pakomentuoti įvairius klausimus, jis ir pats aktyviai vyksta į kitas šalis skaityti įvairių paskaitų. Aktyvizme ir advokatavime veikiantys antropologai neretai dalyvauja organizacijų veikloje arba patys organizuoja veiklas ir projektus, steigia organizacijas. Lietuvoje viena tokių yra Jekaterina Lavrinec - Šnipiškių bendruomenės kūrėja, aktyvistė ir “Laimikis.lt” nevyriausybinės organizacijos, užsiimančios kitokiu kūrybišku urbanizmu, bendrasteigėja.
+  </p>
+    
+  <p>
+   Kai kuriose pasaulio valstybėse, pavyzdžiui Pietų Amerikos šalyse, Skandinavijoje socialinių ir humanitarinių mokslų atstovų įsitraukimas į visuomeninę veiklą yra toks pats svarbus reikalavimas, kaip ir akademinė produkcija. Pavyzdžiui, Kanadoje reikalaujama parengti ir žinių mobilizavimo (ang. knowledge mobilization) planus, kuomet tyrėjas turi sudaryti strategiją kas ir kaip galės naudoti tyrimų žinias ir kaip ši tikslinė auditorija bus pasiekta. Taip Kanados socialinių ir humanitarinių tyrimų taryba siekia tvaresnio akademijos, visuomenės  ir įvairių kitų sektorių bendradarbiavimo, inovacijų ir pokyčių viešojoje politikoje bei įvairiose profesinėse ir visuomeninio gyvenimo srityse. JAV įsitraukusioji ir viešoji antropologija labai vertinamos, nes jų atstovai gali kelti ir viešinti nepatogius visuomenei klausimus. Taip pasiekiami žmonės už akademijos ribų, o paties akademinio “raštingumo” tikslas tampa aktyviai kalbėti apie pasaulio ir žmonijos problemas. 
+  </p>
+      
+      <p>
+        <b> „Antropologijos diena 2020: Socialinis veiksmas"</b>
+      </p>
+    
+  <p>
+   „Socialiniai mokslai socialiniam veiksmui” projektu siekiame pakviesti svarstyti kaip socialiniai ir humanitariniai mokslai gali tapti socialiniu veiksmu ir iniciatyvomis bei užtikrinti gilesnį poveikį visuomenei. Šis projektas įgyvendinamas taikomosios antropologijos organizacijos „Anthropos” iniciatyva, bendradarbiaujant su organizacijomis „Jaunrades labaratorija“ iš Latvijos, Estijos antropologijos asociacija ir Tartu Nefa klubu iš Estijos. 2019 m. lapkričio mėnesį visos organizacijos viešėjo Kaune, kur trijų dienų sesijoje mokėsi socialinių mokslų žinias paversti konkrečiais veiksmais. Dirbtuvių metu buvo keliami ir kiti klausimai: kokia trečiojo sektoriaus situacija Baltijos šalyse ir kokios galimybės antropologams bei kitų socialinių ir humanitarinių mokslų atstovams taikyti savo žinias už akademijos ribų? Ko tikėtis ir kokių įgūdžių tam reikia? Antroji projekto dalis vyksta visose trijose partnerių šalyse ir organizacijos kviečia į dirbtuves, skirtas įgyti taikomuosiuose tyrimuose ar advokatavime reikalingus įgūdžius. Dirbtuvių tematikos plačios - nuo taikomųjų tyrimų metodų iki meno ir antropologijos santykio. Lietuvoje rugpjūčio 19-20 dienomis vyksiančiame renginyje „Anropologijos diena 2020: Socialinis veiksmas” nuotolinių dirbtuvių metu Artūrs Pokšans (LV) ves dirbtuves apie taikomosios antropologijos metodus, miesto antropologė Jekaterina Lavrinec pasidalins advokatavimo žiniomis, o vėliau lauks diskusija "Mokslas tyrinėjantis pokytį ir/ar mokslas darantis pokytį" su Vytauto Didžiojo ir Vilniaus universiteto lektore dr. Kristina Jonutyte, miesto antropologe ir aktyviste asoc. prof. Jekaterina Lavrinec ir prof. Roberto Barrios (Pietų Ilinojaus universitetas, JAV).
+  </p>
+      
+    <p>
+      <br>
+      <a href="https://www.facebook.com/events/273959553883130">Daugiau apie renginį</a>
+      <br>
+      <a href="https://docs.google.com/forms/d/1totvJnslheKobpE-51fV-bDvdcz-0lFGftgHugfGs0s">Kviečiame registruotis į dirbtuves</a>
+    </p>
+      
+    <p align="right">
+      <i>Parengė Taikomosios antropologijos asociacija “Anthropos”</i>
+    </p>
+  
+    </div>
+   
+      
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+      <!-- Container Starts -->
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title">Tekstai</h2>
+          <hr class="lines">
+          <!--<p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos! <br> Lorem ipsum dolor sit amet, consectetur.</p>-->
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
+            <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="maistasnebemaistas.html">
+                  <img src="img/blog/img11.jpg" alt="">
+                </a>                
+              </div>
+              <div class="blog-item-text"> 
+                <div class="meta-tags">
+                  <!--<span class="date"><i class="lnr  lnr-clock"></i>2 Days Ago</span>
+                  <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span>-->
+                </div>
+                <h3>
+                  <a href="maistasnebemaistas.html">Energija, kurią išmetame: maisto išmetimas ir klimato kaita</a>
+                </h3>
+                <p>
+                Visi šioje planetoje valgome, tačiau kaip gauname maistą, ką laikome maistu ir kaip jį vartojame skiriasi bei keitėsi per istoriją. Per maistą atsiskleidžia socialiniai, kultūriniai ir ekonominiai kontekstai, o kalbėdami apie maisto produkciją galime suprasti, ką kiekvieno mūsų pasirinkimai reiškia ekosistemai ir klimatui.
+                </p>
+                <a href="single-post.html" class="btn-rm">Daugiau <i class="lnr lnr-arrow-right"></i></a>
+              </div>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
+            <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="socialinisveiksmas.html">
+                  <img src="img/blog/img2.jpg" alt="">
+                </a>                
+              </div>
+              <div class="blog-item-text"> 
+                <div class="meta-tags">
+                  <!--<span class="date"><i class="lnr  lnr-clock"></i>2 Days Ago</span>
+                  <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span>-->
+                </div>
+                <h3>
+                  <a href="socialinisveiksmas.html">Mokslas, kuris tiria ar/ir daro pokytį?</a>
+                </h3>
+                <p>
+                Ar tikrai tyrėjų vieta apsiriboja vien universitetu? Juk socialinių mokslų žinias galima pritaikyti ir paversti ir konkrečiais veiksmais. Kaip ne tik tirti, bet ir kurti pokytį visuomenėje, pritaikant akademijoje sukauptas žinias? 
+                </p>
+                <a href="socialinisveiksmas.html" class="btn-rm">Daugiau <i class="lnr lnr-arrow-right"></i></a>
+              </div>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
+            <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="antropologijapraktikoje.html">
+                  <img src="img/blog/baneris2.jpg" alt="">
+                </a>                
+              </div>
+              <div class="blog-item-text"> 
+                <div class="meta-tags">
+                  <!--<span class="date"><i class="lnr  lnr-clock"></i>2 Days Ago</span>
+                  <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span>-->
+                </div>
+                <h3>
+                  <a href="antropologijapraktikoje.html">Antropologija praktikoje. Įžvalgos iš bendro Baltijos šalių projekto „Socialiniai mokslai socialiniam veiksmui!”</a>
+                </h3>
+                <p>
+                
+                </p>
+                <a href="antropologijapraktikoje.html" class="btn-rm">Daugiau <i class="lnr lnr-arrow-right"></i></a>
+              </div>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+          </div>
+		 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
+            <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="kulturureprezentavimas.html">
+                  <img src="img/blog/baneris-kulturu.jpg" alt="">
+                </a>                
+              </div>
+              <div class="blog-item-text"> 
+                <div class="meta-tags">
+                  <!--<span class="date"><i class="lnr  lnr-clock"></i>2 Days Ago</span>
+                  <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span>-->
+                </div>
+                <h3>
+                  <a href="kulturureprezentavimas.html">Kultūrų reprezentavimas: antropologinė perspektyva.</a>
+                </h3>
+                <p>
+                
+                </p>
+                <a href="kulturureprezentavimas.html" class="btn-rm">Daugiau <i class="lnr lnr-arrow-right"></i></a>
+              </div>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">-->
+            <!-- Blog Item Starts -->
+            <!--<div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="single-post.html">
+                  <img src="img/blog/img3.jpg" alt="">
+                </a>                
+              </div>
+              <div class="blog-item-text"> 
+                <div class="meta-tags">
+                  <span class="date"><i class="lnr  lnr-clock"></i>2 Days Ago</span>
+                  <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span>
+                </div> 
+                <h3>
+                  <a href="single-post.html">Social media at work</a>
+                </h3>
+                <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... 
+                </p>
+                <a href="single-post.html" class="btn-rm">Read More <i class="lnr lnr-arrow-right"></i></a>
+              </div>
+            </div>-->
+            <!-- Blog Item Wrapper Ends-->
+          <!--</div>
+        </div>-->
+      </div>
+    </section>
+    <!-- blog Section End -->
+  
+      
+    <!-- Contact Section Start -->
+    <section id="contact" class="section" data-stellar-background-ratio="-0.2">      
+      <div class="contact-form">
+        <div class="container">
+          <div class="row">     
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+              <div class="contact-us">
+                <!--<h3>Susisiekite su mumis</h3>-->
+                <h3>Anthropos</h3>
+                <div class="contact-address">
+                  <p>Taikomosios antropologijos organizacija</p>
+                  <p>Registracijos kodas: 304743335 </p>
+                  <p>Banko sąskaita: Luminor LT204010051004193055</p>
+                  <p class="email">El. paštas: 
+                    <span>
+                        <A href="mailto:taikomoji.antropologija@gmail.com">(taikomoji.antropologija@gmail.com)</A>
+                    </span>
+                  </p>
+                </div>
+                <div class="social-icons">
+                  <ul>
+                    <li class="facebook"><a href="https://www.facebook.com/anthropos.lt/"target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/company/anthroposanthropos/"target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>     
+            
+          </div>
+        </div>
+      </div>           
+    </section>
+    <!-- Contact Section End -->
+
+
+    <!-- Go To Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="lnr lnr-arrow-up"></i>
+    </a>
+    
+    <div id="loader">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>     
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mixitup.js"></script>
+    <script src="js/nivo-lightbox.js"></script>
+    <script src="js/owl.carousel.js"></script>    
+    <script src="js/jquery.stellar.min.js"></script>    
+    <script src="js/jquery.nav.js"></script>    
+    <script src="js/scrolling-nav.js"></script>    
+    <script src="js/jquery.easing.min.js"></script>    
+    <script src="js/smoothscroll.js"></script>    
+    <script src="js/jquery.slicknav.js"></script>     
+    <script src="js/wow.js"></script>   
+    <script src="js/jquery.vide.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>    
+    <script src="js/jquery.magnific-popup.min.js"></script>    
+    <script src="js/waypoints.min.js"></script>    
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>   
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
 
