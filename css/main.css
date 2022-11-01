@@ -1884,6 +1884,16 @@ text-align: center;
   height: 150px;
   
 }
+	#nesvaistykime {
+		
+  background: url(../img/blog/food.png) no-repeat;
+  background-size: contain;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  height: 150px;
+  
+}
 	.brands_slider_container {
 		height: 10px;
     padding-left: 7px;
