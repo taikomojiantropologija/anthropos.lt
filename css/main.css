@@ -561,7 +561,7 @@ button:focus {
 
 #erasmus_reprezentacijos {
 	 height: 600px;
-  background: url(../img/blog/baneris-erasmus.jpg) fixed no-repeat;
+  background: url(../img/blog/baneris_erasmus.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -756,7 +756,7 @@ button:focus {
 
 	#erasmus_reprezentacijos {
 		
-  background: url(../img/blog/baneris-erasmus.jpg) no-repeat;
+  background: url(../img/blog/baneris_erasmus.jpg) no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
