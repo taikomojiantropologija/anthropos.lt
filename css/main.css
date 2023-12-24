@@ -552,13 +552,21 @@ button:focus {
   }
 #kulturureprezentavimas {
 	 height: 600px;
-  background: url(../img/blog/baneris-kulturu.jpg) fixed no-repeat;
+  background: url(../img/blog/baneris_kulturu.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
   position: relative;
 }
 
+#erasmus_reprezentacijos {
+	 height: 600px;
+  background: url(../img/blog/baneris-erasmus.jpg) fixed no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -740,6 +748,15 @@ button:focus {
 	#kulturureprezentavimas {
 		
   background: url(../img/blog/baneris-kulturu.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+	#erasmus_reprezentacijos {
+		
+  background: url(../img/blog/baneris-erasmus.jpg) no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -1940,6 +1957,18 @@ text-align: center;
   height: 150px;
   
 }
+
+	#erasmus_reprezentacijos {
+		
+  background: url(../img/blog/baneris-erasmus.jpg) no-repeat;
+  background-size: contain;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  height: 150px;
+  
+}
+	
 	#nesvaistykime {
 		
   background: url(../img/blog/food.png) no-repeat;
