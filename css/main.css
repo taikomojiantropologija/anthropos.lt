@@ -1822,6 +1822,15 @@ footer {
   color: #61D2B4;
 }
 
+#nesvaistykime {
+  height: 600px;
+  background: url(../img/blog/baneris_erasmus.jpg) fixed no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
 @media only screen and (min-width: 700px){
 .mobile-posteriai {
 display: none;
