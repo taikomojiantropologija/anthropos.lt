@@ -409,7 +409,7 @@ button:focus {
    ========================================================================== */
 #hero-area {
   height: 600px;
-  background: url(../img/pagrfoto.png) fixed no-repeat;
+  background: url(../img/pagrfoto1.png) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -2159,6 +2159,7 @@ padding-right:30px;
   height: auto;
 }
 }
+
 
 
 
