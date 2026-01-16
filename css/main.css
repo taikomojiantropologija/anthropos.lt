@@ -405,11 +405,11 @@ button:focus {
 }
 
 /* ==========================================================================
-   3. Hero Area
+   3.  Area
    ========================================================================== */
 #hero-area {
   height: 600px;
-  background: url(../img/hero-area.jpg) fixed no-repeat;
+  background: url(../img/pagrfoto.png) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -2159,6 +2159,7 @@ padding-right:30px;
   height: auto;
 }
 }
+
 
 
 
