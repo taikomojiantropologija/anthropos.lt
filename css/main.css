@@ -518,7 +518,7 @@ button:focus {
   padding: 0 22px;
   margin-top: 20px;
   margin-bottom: 20px;
-  line-height: 40px;
+  line-height: 1.2;
   border-radius: 30px;
   background: transparent;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2161,6 +2161,7 @@ padding-right:30px;
   height: auto;
 }
 }
+
 
 
 
