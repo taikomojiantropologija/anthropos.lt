@@ -472,7 +472,7 @@ button:focus {
    4. Navbar Style
    ========================================================================== */
 .navbar-brand {
-  position: relative;
+  position: center;
   padding: 0px;
 }
 
@@ -515,9 +515,9 @@ button:focus {
 
 .navbar-expand-lg .navbar-nav .nav-link {
   color: #fff;
-  padding: 0 22px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   line-height: 1.2;
   border-radius: 30px;
   background: transparent;
@@ -2161,6 +2161,7 @@ padding-right:30px;
   height: auto;
 }
 }
+
 
 
 
