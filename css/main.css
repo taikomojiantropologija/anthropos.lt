@@ -573,7 +573,7 @@ button:focus {
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-main li a.nav-link {
-    padding-top: 18px;
+    padding-top: 19px;
   }
 	#maistas .contents h1 {
   color: #fff;
@@ -666,7 +666,7 @@ button:focus {
 
 @media screen and (max-width: 768px) {
   .navbar-header {
-    width: 100%;
+    width: 90%;
   }
   .navbar-brand {
     position: absolute;
@@ -675,7 +675,7 @@ button:focus {
     top: 0;
   }
   .navbar-brand img {
-    width: 70%;
+    width: 60%;
   }
   #mobile-menu {
     display: none;
@@ -1958,7 +1958,7 @@ text-align: center;
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
   .modal-content {
-    width: 100%;
+    width: 90%;
   }
   .imagecontainer {
   width:220px;
@@ -2162,6 +2162,7 @@ padding-right:30px;
   height: auto;
 }
 }
+
 
 
 
