@@ -106,7 +106,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
    ========================================================================== */
 
 .section {
-  padding: 100px 50px 0 50px;
+  padding: 150px 10px 0 100px;
 }
 
 .section-header {
@@ -2162,6 +2162,7 @@ padding-right:30px;
   height: auto;
 }
 }
+
 
 
 
