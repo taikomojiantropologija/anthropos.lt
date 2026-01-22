@@ -104,9 +104,17 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 /* ==========================================================================
    2.1 Section Title
    ========================================================================== */
+
 .section {
-  padding: 0 180px;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+@media (min-width: 992px) {
+  .section {
+    padding: 0 2rem;
+  }
 
 .section-header {
   color: #fff;
@@ -2161,6 +2169,7 @@ padding-right:30px;
   height: auto;
 }
 }
+
 
 
 
