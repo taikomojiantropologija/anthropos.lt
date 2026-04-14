@@ -586,6 +586,26 @@ button:focus {
   background: #61D2B4;
 }
 
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.center-menu {
+  margin: 0 auto; /* stays centered */
+}
+
+.right-menu {
+  margin-left: auto; /* pushes to right */
+}
+
+
+
+
+
 .dropdown-toggle::after {
   display: none;
 }
