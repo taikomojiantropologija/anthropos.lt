@@ -736,6 +736,20 @@ button:focus {
   .navbar-header {
     width: 90%;
   }
+
+
+nav ul {
+    display: flex;
+    flex-direction: column; /* nuorodos viena po kitos */
+    padding: 0;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+}
+
+
   .navbar-brand {
     position: absolute;
     padding: 15px;
