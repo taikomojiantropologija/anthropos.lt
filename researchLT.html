@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/main.css">    
     <link rel="stylesheet" href="css/responsive.css">
 
-  <body> 				 
+			 
 <style>
 .dropdown {
 position: relative;
@@ -38,7 +38,38 @@ z-index: 1;
 .dropdown:hover .dropdown-content {
 display: block;
 }
-		  
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}	  
 </style>
  </head>
 	  <body>
@@ -61,7 +92,8 @@ display: block;
 				
  <div class="collapse navbar-collapse" id="main-navbar">
   <div class="dropdown"> 
-  <button class="dropbtn">VEIKLOS IR PASLAUGOS <i class="fa fa-caret-down"></i> </button>
+ <ul>
+  <li> <button class="dropbtn">VEIKLOS IR PASLAUGOS <i class="fa fa-caret-down"></i> </button></li>
   <div class="dropdown-content">
    <class="nav-item">
                 <a href="researchLT.html"><div class="icon"><i class="lnr lnr-magnifier"></i></div>Tyrimai ir analizės</a>
@@ -69,7 +101,7 @@ display: block;
                 <a href="trainingLT.html"> <div class="icon"><i class="lnr lnr-book"></i></div>Mokymai, konsultavimas ir metodikų kūrimas</a> 
    <class="nav-item">
                 <a href="workshopsLT.html"> <div class="icon"><i class="lnr lnr-magic-wand"></i></div>Dirbtuvės</a> 
-  </div>
+   </ul>  </div>
   </div> 
 </div>
 
