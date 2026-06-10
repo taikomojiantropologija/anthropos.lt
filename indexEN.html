@@ -760,7 +760,7 @@ Anthropological perspective </a>
 <p class="email">
          Email: <span> <A href="mailto:taikomoji.antropologija@gmail.com">taikomoji.antropologija@gmail.com</A>  </span>
     	<br>Phone No.: +37065350308 (Ugnė Barbora Starkutė)
-		<br><i>* VAT not applied. The small business scheme in Lithuania applies. </i>
+		<br><br><i>* VAT not applied. The small business scheme in Lithuania applies. </i>
                 </div>
                   <div class="social-icons">
                   <ul>
@@ -778,7 +778,48 @@ Anthropological perspective </a>
     </section>
     <!-- Contact Section End -->
     
-     <!-- jQuery first, then Tether, then Bootstrap JS. -->
+   <!-- Footer Section Start -->
+    <footer>          
+      <div class="container">
+        <div class="row">
+          <!-- Footer Links -->
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+            <ul class="footer-links">
+              <li>
+                <a href="#reportsLT.html">Annual reports</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#team">Our team</a>
+              </li>
+              <li>
+                <a href="#blog">Publications</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+
+          </div>  
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End --> 
+
+    <!-- Go To Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="lnr lnr-arrow-up"></i>
+    </a>
+    
+    <div id="loader">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>     
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="js/jquery-min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -799,9 +840,54 @@ Anthropological perspective </a>
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>   
     <script src="js/main.js"></script>
+	    
+    <!--partners-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script>
+    $(document).ready(function(){
+
+if($('.brands_slider').length)
+{
+var brandsSlider = $('.brands_slider');
+
+brandsSlider.owlCarousel(
+{
+loop:true,
+autoplay:true,
+autoplayTimeout:3000,
+nav:false,
+dots:false,
+autoWidth:true,
+items:8,
+margin:42
+});
+
+if($('.brands_prev').length)
+{
+var prev = $('.brands_prev');
+prev.on('click', function()
+{
+brandsSlider.trigger('prev.owl.carousel');
+});
+}
+
+if($('.brands_next').length)
+{
+var next = $('.brands_next');
+next.on('click', function()
+{
+brandsSlider.trigger('next.owl.carousel');
+});
+}
+}
+
+
+});
+    </script>
 
   </body>
 </html>
+
       
        <!--partners-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
