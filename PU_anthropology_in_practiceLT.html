@@ -473,29 +473,31 @@
     <!-- blog Section End -->
   
       
-    <!-- Contact Section Start -->
+     <!-- Contact Section Start -->
     <section id="contact" class="section" data-stellar-background-ratio="-0.2">      
       <div class="contact-form">
         <div class="container">
           <div class="row">     
             <div class="col-lg-6 col-sm-6 col-xs-12">
               <div class="contact-us">
-                <!--<h3>Susisiekite su mumis</h3>-->
-                <h3>Anthropos</h3>
+                <!--<h2>Susisiekite su mumis</h2>-->
+                <h2>Susisiekite su mumis</h2>
                 <div class="contact-address">
-                  <p>Taikomosios antropologijos organizacija</p>
-                  <p>Registracijos kodas: 304743335 </p>
-                  <p>Banko sąskaita: Luminor LT204010051004193055</p>
-                  <p class="email">El. paštas: 
-                    <span>
-                        <A href="mailto:taikomoji.antropologija@gmail.com">(taikomoji.antropologija@gmail.com)</A>
-                    </span>
-                  </p>
+   <p><b>TAIKOMOSIOS ANTROPOLOGIJOS ORGANIZACIJA „ANTHROPOS“</b>
+        <br>Registracijos kodas: 304743335 
+	    <br>PVM mokėtojo kodas: LT100018477116*
+		<br>Registracijos adresas: Laisvės al. 110, LT-44253, Kaunas, Lietuva
+        <br>Banko sąskaita:</i> Luminor LT 20 4010 0510 0419 3055
+<p class="email">
+         El. paštas: <span> <A href="mailto:taikomoji.antropologija@gmail.com">taikomoji.antropologija@gmail.com</A>  </span>
+    	<br>Mob. telefono nr.: +37065350308 (Ugnė Barbora Starkutė)
+		<br><br><i>* PVM neskaičiuojamas. Taikoma smulkaus verslo schema Lietuvoje. </i>
                 </div>
                 <div class="social-icons">
                   <ul>
                     <li class="facebook"><a href="https://www.facebook.com/anthropos.lt/"target="_blank"><i class="fa fa-facebook"></i></a></li>
                     <li class="linkedin"><a href="https://www.linkedin.com/company/anthroposanthropos/"target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				    <li class="instagram"><a href="https://www.instagram.com/anthropos_lt?igsh=OGtqOGc4dmU2enc5/"target="_blank"><i class="fa fa-instagram"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -507,6 +509,34 @@
     </section>
     <!-- Contact Section End -->
 
+    <!-- Footer Section Start -->
+    <footer>          
+      <div class="container">
+        <div class="row">
+          <!-- Footer Links -->
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+            <ul class="footer-links">
+              <li>
+                <a href="#reportsLT.html">Metinės ataskaitos</a>
+              </li>
+              <li>
+                <a href="#services">Veikla ir Paslaugos</a>
+              </li>
+              <li>
+                <a href="#team">Komanda</a>
+              </li>
+              <li>
+                <a href="#blog">Publikacijos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+
+          </div>  
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End --> 
 
     <!-- Go To Top Link -->
     <a href="#" class="back-to-top">
@@ -541,10 +571,45 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>   
     <script src="js/main.js"></script>
+	    
+    <!--partners-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script>
+    $(document).ready(function(){
 
-	<!--modal posters -->
+if($('.brands_slider').length)
+{
+var brandsSlider = $('.brands_slider');
 
+brandsSlider.owlCarousel(
+{
+loop:true,
+autoplay:true,
+autoplayTimeout:3000,
+nav:false,
+dots:false,
+autoWidth:true,
+items:8,
+margin:42
+});
 
+if($('.brands_prev').length)
+{
+var prev = $('.brands_prev');
+prev.on('click', function()
+{
+brandsSlider.trigger('prev.owl.carousel');
+});
+}
+
+if($('.brands_next').length)
+{
+var next = $('.brands_next');
+next.on('click', function()
+{
+brandsSlider.trigger('next.owl.carousel');
+});
+}
 
 <script>
 function onClick(element) {
