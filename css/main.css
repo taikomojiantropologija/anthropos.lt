@@ -591,6 +591,10 @@ button:focus {
     width: auto;
 }
 
+.navbar a {
+    white-space: nowrap;
+}
+
 .navbar {
   display: flex;
   align-items: center;
