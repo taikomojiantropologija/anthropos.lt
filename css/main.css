@@ -476,7 +476,7 @@ button:focus {
 
 #hero-area-year-report {
   height: 600px;
-  background: url(../img/pagrfoto1.png) fixed no-repeat;
+  background: url(img/main/report.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
