@@ -476,7 +476,7 @@ button:focus {
 
 #hero-area-year-report {
   height: 600px;
-  background: url(img/main/report.jpg) fixed no-repeat;
+  background: url(../img/main/report.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -649,6 +649,8 @@ button:focus {
 .loupeicon{
   display: none;
   }
+
+
 #kulturureprezentavimas {
 	 height: 600px;
   background: url(../img/blog/baneris_kulturu.jpg) fixed no-repeat;
@@ -666,6 +668,7 @@ button:focus {
   overflow: hidden;
   position: relative;
 }
+
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -690,15 +693,7 @@ button:focus {
 #posters .contents {
   padding: 200px 0 130px;
  }
-#veiksmas .contents h1 {
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 25px;
-} 
-#veiksmas .contents {
-  padding: 200px 0 130px;
- }
+	
  .aprasymas{
 	margin-top: 100px;
 	margin-right: 200px;
@@ -709,6 +704,20 @@ button:focus {
     text-align: justify;
     text-indent: 50px;
 }
+
+
+	
+	#veiksmas .contents h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 25px;
+} 
+#veiksmas .contents {
+  padding: 200px 0 130px;
+ }
+
+	
 	#nesvaistykime .contents h1 {
   color: #fff;
   font-size: 42px;
@@ -719,6 +728,7 @@ button:focus {
   padding: 200px 0 130px;
 }
 
+	
 #erasmus_reprezentacijos .contents h1 {
   color: #fff;
   font-size: 42px;
@@ -728,7 +738,9 @@ button:focus {
 #erasmus_reprezentacijos .contents {
   padding: 200px 0 130px;
 }	
-	.youtube-video-container {
+
+	
+.youtube-video-container {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -746,7 +758,6 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
-}
 }
 
 .navbar-toggler {
