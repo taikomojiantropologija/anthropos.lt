@@ -474,6 +474,24 @@ button:focus {
   position: relative;
 }
 
+#hero-area-year-report {
+  height: 600px;
+  background: url(../img/pagrfoto1.png) fixed no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+#hero-area-about-us {
+  height: 600px;
+  background: url(../img/pagrfoto1.png) fixed no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
 #hero-area .overlay {
   position: absolute;
   width: 100%;
