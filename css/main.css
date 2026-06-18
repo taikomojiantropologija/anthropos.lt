@@ -474,24 +474,6 @@ button:focus {
   position: relative;
 }
 
-#hero-area-year-report {
-  height: 600px;
-  background: url(../img/main/report.jpg) fixed no-repeat;
-  background-size: cover;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-}
-
-#hero-area-about-us {
-  height: 600px;
-  background: url(../img/pagrfoto1.png) fixed no-repeat;
-  background-size: cover;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-}
-
 #hero-area .overlay {
   position: absolute;
   width: 100%;
@@ -650,7 +632,6 @@ button:focus {
   display: none;
   }
 
-/* Publikacija */
 #kulturureprezentavimas {
 	 height: 600px;
   background: url(../img/blog/baneris_kulturu.jpg) fixed no-repeat;
@@ -660,7 +641,6 @@ button:focus {
   position: relative;
 }
 
-/* Publikacija */
 #erasmus_reprezentacijos {
 	 height: 600px;
   background: url(../img/blog/baneris_erasmus.jpg) fixed no-repeat;
@@ -676,17 +656,27 @@ button:focus {
   #nav-main li a.nav-link {
     padding-top: 19px;
   }
-
- #posters .contents h1 {
+}  
+	#veiksmas .contents h1 {
   color: #fff;
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 25px;
 } 
-#posters .contents {
+#veiksmas .contents {
   padding: 200px 0 130px;
  }
-	
+#posters .contents {
+  padding: 200px 0 130px;
+	#maistas .contents h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 25px;
+} 
+#maistas .contents {
+  padding: 200px 0 130px;
+ }
  .aprasymas{
 	margin-top: 100px;
 	margin-right: 200px;
@@ -697,32 +687,15 @@ button:focus {
     text-align: justify;
     text-indent: 50px;
 }
-
-
-/* Publikacija */
-	#maistas .contents h1 {
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 25px;
-} 
-#maistas .contents {
-  padding: 200px 0 130px;
- }
 	
-/* Publikacija */
-	#veiksmas .contents h1 {
+ #posters .contents h1 {
   color: #fff;
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 25px;
-} 
-#veiksmas .contents {
-  padding: 200px 0 130px;
- }
 
-/* Publikacija */
-	#nesvaistykime .contents h1 {
+
+#nesvaistykime .contents h1 {
   color: #fff;
   font-size: 42px;
   font-weight: 700;
@@ -732,7 +705,6 @@ button:focus {
   padding: 200px 0 130px;
 }
 
-/* Publikacija */
 #erasmus_reprezentacijos .contents h1 {
   color: #fff;
   font-size: 42px;
@@ -743,10 +715,6 @@ button:focus {
   padding: 200px 0 130px;
 }	
 
-
-
-
-	
 .youtube-video-container {
   position: relative;
   overflow: hidden;
@@ -824,7 +792,6 @@ button:focus {
   max-height: 300px;
 }
 
-/* Publikacija */
   #maistas .contents h1 {
   color: #fff;
   font-size: 12px;
@@ -851,7 +818,6 @@ button:focus {
 	/*text-indent: 50px;*/
 }
 
-/* Publikacija */
 	 #veiksmas .contents h1 {
   color: #fff;
   font-size: 12px;
@@ -878,7 +844,6 @@ button:focus {
 	/*text-indent: 50px;*/
 }
 
-/* Publikacija */
 	#kulturureprezentavimas {
   background: url(../img/blog/baneris-kulturu.jpg) no-repeat;
   background-size: cover;
@@ -886,7 +851,7 @@ button:focus {
   overflow: hidden;
   position: relative;
 }
-/* Publikacija */
+
 	#erasmus_reprezentacijos {
   background: url(../img/blog/baneris_erasmus.jpg) no-repeat;
   background-size: cover;
@@ -894,7 +859,7 @@ button:focus {
   overflow: hidden;
   position: relative;
 }
-/* Publikacija */
+
 	 #nesvaistykime .contents h1 {
   color: #fff;
   font-size: 12px;
@@ -921,11 +886,6 @@ button:focus {
 	/*text-indent: 50px;*/
 }
 
-
-
-
-
-	
 	.youtube-video-container {
   position: relative;
   overflow: hidden;
@@ -946,14 +906,10 @@ button:focus {
   height: 100%;
 }
 }
-
 @media screen and (min-width: 900px) {
 #hero-area {
     height: 600px;
     }
-
-	
-/* Publikacija */
 #maistas {
     height: 600px;
     }
@@ -969,9 +925,6 @@ button:focus {
 #erasmus_reprezentacijos {
     height: 600px;
     }
-
-
-	
 .aprasymas{
     margin-top: 100px;
     margin-right: 200px;
@@ -982,8 +935,6 @@ button:focus {
     text-align: justify;
     text-indent: 50px;
 	}
-
-/* Publikacija */
 #maistas .contents h1 {
   color: #fff;
   font-size: 42px;
@@ -994,8 +945,6 @@ button:focus {
   padding: 200px 0 130px;
   }
 
-
-	
 #posters .contents h1 {
   color: #fff;
   font-size: 42px;
@@ -1011,8 +960,6 @@ button:focus {
   font-weight: 700;
   margin-bottom: 25px;
 } 
-
-/* Publikacija */
 #veiksmas .contents {
   padding: 200px 0 130px;
   }
