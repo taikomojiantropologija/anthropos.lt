@@ -2075,37 +2075,32 @@ text-align: center;
   .opacity {
   opacity: 0.6;
   }
+}
 	#kulturureprezentavimas {
-		
   background: url(../img/blog/baneris-kulturu.jpg) no-repeat;
   background-size: contain;
   color: #fff;
   overflow: hidden;
   position: relative;
   height: 150px;
-  
 }
 
 	#erasmus_reprezentacijos {
-		
   background: url(../img/blog/baneris_erasmus.jpg) no-repeat;
   background-size: contain;
   color: #fff;
   overflow: hidden;
   position: relative;
   height: 150px;
-  
 }
 	
 	#nesvaistykime {
-		
   background: url(../img/blog/food.png) no-repeat;
   background-size: contain;
   color: #fff;
   overflow: hidden;
   position: relative;
   height: 150px;
-  
 }
 	.brands_slider_container {
 		height: 10px;
@@ -2113,7 +2108,6 @@ text-align: center;
     padding-right: 7px;
     background: #fff
 	}
-}
 
 .loupeicon {
     order: 1px black;
@@ -2123,7 +2117,6 @@ text-align: center;
     cursor: zoom-in;
 }
 
-
 #posters {
   height: 600px;
   background: url(../img/blog/baneris0.jpg) fixed no-repeat;
@@ -2132,6 +2125,7 @@ text-align: center;
   overflow: hidden;
   position: relative;
 }
+
 #posters .overlay {
   position: absolute;
   width: 100%;
@@ -2141,6 +2135,7 @@ text-align: center;
   background: #61D2B4;
   opacity: 0.9;
 }
+
 #posters .contents p {
   font-size: 14px;
   color: #fff;
@@ -2243,7 +2238,6 @@ text-align: center;
     padding-left: 1px;
     padding-right: 1px; 
     background: #fff;
-   
 }
 	.mobile-text {
 padding-left: 30px;
