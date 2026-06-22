@@ -656,7 +656,7 @@ button:focus {
   #nav-main li a.nav-link {
     padding-top: 19px;
   }
-}  
+
 	#veiksmas .contents h1 {
   color: #fff;
   font-size: 42px;
@@ -748,12 +748,13 @@ button:focus {
 .slicknav_menu {
   display: none;
 }
+}
 
 @media screen and (max-width: 768px) {
   .navbar-header {
     width: 90%;
   }
-	}
+	
 
   .navbar-brand {
     position: absolute;
@@ -891,7 +892,7 @@ button:focus {
 	text-align: justify;
 	/*text-indent: 50px;*/
 }
-
+}
 	.youtube-video-container {
   position: relative;
   overflow: hidden;
