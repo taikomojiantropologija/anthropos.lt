@@ -653,25 +653,12 @@ button:focus {
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-
-.navbar-toggler {
-  display: none;
-}
-
-.mobile-menu {
-  display: none;
-}
-
-.slicknav_menu {
-  display: none;
-}
-
-
-	#nav-main li a.nav-link {
+	
+#nav-main li a.nav-link {
     padding-top: 19px;
   }
 
-	#veiksmas .contents h1 {
+#veiksmas .contents h1 {
   color: #fff;
   font-size: 42px;
   font-weight: 700;
@@ -690,10 +677,12 @@ button:focus {
 } 
 }
 
+
+	
 #maistas .contents {
   padding: 200px 0 130px;
  }
- .aprasymas{
+ .aprasymas {
 	margin-top: 100px;
 	margin-right: 200px;
 	margin-bottom: 100px;
@@ -752,11 +741,6 @@ button:focus {
 }
 }
 
-
-
-@media screen and (max-width: 768px) {
- 
-	
 .navbar-toggler {
   display: none;
 }
@@ -768,12 +752,15 @@ button:focus {
 .slicknav_menu {
   display: none;
 }
+
+@media screen and (max-width: 768px) {
+ 
 	
-	.navbar-header {
+.navbar-header {
     width: 90%;
   }
 	
-  .navbar-brand {
+ .navbar-brand {
     position: absolute;
     padding: 15px;
 	letter-spacing: 0px;
@@ -931,6 +918,18 @@ button:focus {
 }
 }
 
+.navbar-toggler {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.slicknav_menu {
+  display: none;
+}
+
 @media screen and (min-width: 900px) {
 #hero-area {
     height: 600px;
@@ -1007,6 +1006,18 @@ button:focus {
   width: 100%;
   height: 100%;
 }	
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.slicknav_menu {
+  display: none;
 }
 
 /* ==========================================================================
