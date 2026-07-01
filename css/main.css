@@ -653,7 +653,7 @@ button:focus {
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-{
+
 .navbar-toggler {
   display: none;
 }
@@ -664,7 +664,7 @@ button:focus {
 
 .slicknav_menu {
   display: none;
-}}
+}
 
 
 	#nav-main li a.nav-link {
@@ -756,7 +756,7 @@ button:focus {
 
 @media screen and (max-width: 768px) {
  
-	{
+	
 .navbar-toggler {
   display: none;
 }
@@ -767,7 +767,8 @@ button:focus {
 
 .slicknav_menu {
   display: none;
-}}
+}
+	
 	.navbar-header {
     width: 90%;
   }
