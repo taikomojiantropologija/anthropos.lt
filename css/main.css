@@ -653,7 +653,21 @@ button:focus {
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-  #nav-main li a.nav-link {
+{
+.navbar-toggler {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.slicknav_menu {
+  display: none;
+}}
+
+
+	#nav-main li a.nav-link {
     padding-top: 19px;
   }
 
@@ -737,7 +751,12 @@ button:focus {
   height: 100%;
 }
 }
-{
+
+
+
+@media screen and (max-width: 768px) {
+ 
+	{
 .navbar-toggler {
   display: none;
 }
@@ -749,10 +768,7 @@ button:focus {
 .slicknav_menu {
   display: none;
 }}
-
-
-@media screen and (max-width: 768px) {
-  .navbar-header {
+	.navbar-header {
     width: 90%;
   }
 	
