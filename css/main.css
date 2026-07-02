@@ -739,8 +739,8 @@ button:focus {
   width: 100%;
   height: 100%;
 }
-}
 
+	
 .navbar-toggler {
   display: none;
 }
@@ -752,6 +752,9 @@ button:focus {
 .slicknav_menu {
   display: none;
 }
+}
+
+
 
 @media screen and (max-width: 768px) {
  
@@ -916,8 +919,6 @@ button:focus {
   width: 100%;
   height: 100%;
 }
-}
-
 .navbar-toggler {
   display: none;
 }
@@ -929,6 +930,9 @@ button:focus {
 .slicknav_menu {
   display: none;
 }
+}
+
+
 
 @media screen and (min-width: 900px) {
 #hero-area {
@@ -1005,7 +1009,6 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
-}	
 }
 
 .navbar-toggler {
@@ -1018,7 +1021,10 @@ button:focus {
 
 .slicknav_menu {
   display: none;
+}	
 }
+
+
 
 /* ==========================================================================
   5. Services section
