@@ -775,6 +775,28 @@ button:focus {
     background: #f8f9fa;
     color: #61D2B4;
   }
+
+
+	
+
+	
+		.navbar-toggler {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+
+
+	
+
+	
 #posters .contents h1 {
   color: #fff;
   font-size: 12px;
@@ -884,7 +906,6 @@ button:focus {
 	text-align: justify;
 	/*text-indent: 50px;*/
 }
-
 	.youtube-video-container {
   position: relative;
   overflow: hidden;
@@ -903,17 +924,6 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
-}
-	.navbar-toggler {
-  display: none;
-}
-
-.mobile-menu {
-  display: none;
-}
-
-.slicknav_menu {
-  display: none;
 }
 }
 
