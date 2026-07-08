@@ -732,17 +732,6 @@ button:focus {
   width: 100%;
   height: 100%;
 }
-	.navbar-toggler {
-  display: none;
-}
-
-.mobile-menu {
-  display: none;
-}
-
-.slicknav_menu {
-  display: none;
-}
 }
 
 
