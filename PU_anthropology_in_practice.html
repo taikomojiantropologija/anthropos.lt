@@ -556,6 +556,7 @@
                     <li class="facebook"><a href="https://www.facebook.com/anthropos.lt/"target="_blank"><i class="fa fa-facebook"></i></a></li>
                     <li class="linkedin"><a href="https://www.linkedin.com/company/anthroposanthropos/"target="_blank"><i class="fa fa-linkedin"></i></a></li>
 				    <li class="instagram"><a href="https://www.instagram.com/anthropos_lt?igsh=OGtqOGc4dmU2enc5/"target="_blank"><i class="fa fa-instagram"></i></a></li>
+					    <li class="youtube"><a href="https://www.youtube.com/@anthropos1272"><i class="fa fa-youtube"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -566,7 +567,32 @@
       </div>           
     </section>
     <!-- Contact Section End -->
+    
+   <!-- Footer Section Start -->
+    <footer>          
+      <div class="container">
+        <div class="row">
+          <!-- Footer Links -->
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+            <ul class="footer-links">
+              <li>
+                <a href="year_report.html">Annual Reports</a>
+              </li>
+              <li>
+                <a href="aboutus.html">About Us</a>
+              </li>
+              <li>
+                <a href="publications.html">Publications</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-xs-12">
 
+          </div>  
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End --> 
 
     <!-- Go To Top Link -->
     <a href="#" class="back-to-top">
@@ -601,29 +627,99 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>   
     <script src="js/main.js"></script>
+	    
+    <!--partners-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script>
+    $(document).ready(function(){
 
-	<!--modal posters -->
+if($('.brands_slider').length)
+{
+var brandsSlider = $('.brands_slider');
 
+brandsSlider.owlCarousel(
+{
+loop:true,
+autoplay:true,
+autoplayTimeout:3000,
+nav:false,
+dots:false,
+autoWidth:true,
+items:8,
+margin:42
+});
 
-
-<script>
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal00").style.display = "block";
+if($('.brands_prev').length)
+{
+var prev = $('.brands_prev');
+prev.on('click', function()
+{
+brandsSlider.trigger('prev.owl.carousel');
+});
 }
-</script>
-<script>
-function onClick(element) {
-  document.getElementById("img02").src = element.src;
-  document.getElementById("modal01").style.display = "block";
+
+if($('.brands_next').length)
+{
+var next = $('.brands_next');
+next.on('click', function()
+{
+brandsSlider.trigger('next.owl.carousel');
+});
 }
-</script>
-<script>
-function onClick(element) {
-  document.getElementById("img03").src = element.src;
-  document.getElementById("modal02").style.display = "block";
 }
-</script>
+
+
+});
+    </script>
 
   </body>
+</html>
+
+      
+       <!--partners-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script>
+    $(document).ready(function(){
+
+if($('.brands_slider').length)
+{
+var brandsSlider = $('.brands_slider');
+
+brandsSlider.owlCarousel(
+{
+loop:true,
+autoplay:true,
+autoplayTimeout:3000,
+nav:false,
+dots:false,
+autoWidth:true,
+items:8,
+margin:42
+});
+
+if($('.brands_prev').length)
+{
+var prev = $('.brands_prev');
+prev.on('click', function()
+{
+brandsSlider.trigger('prev.owl.carousel');
+});
+}
+
+if($('.brands_next').length)
+{
+var next = $('.brands_next');
+next.on('click', function()
+{
+brandsSlider.trigger('next.owl.carousel');
+});
+}
+}
+
+
+});
+    </script>
+
+  </body>
+</html>
 </html>
