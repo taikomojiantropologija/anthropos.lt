@@ -686,40 +686,49 @@ button:focus {
 }
 
 
-	
-	.custom-toggler {
-    width: 48px;
-    height: 48px;
-    border: 2px solid #b9e7dc;
-    border-radius: 50%;
+.logo-toggler {
+    width: 52px;
+    height: 52px;
+    border: none;
     background: transparent;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     padding: 0;
-    transition: .3s;
 }
 
-.custom-toggler span {
-    width: 18px;
-    height: 18px;
+.logo-toggler .rings {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid #b9e7dc;
+    position: relative;
+}
+
+.logo-toggler .rings::before,
+.logo-toggler .rings::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
     border: 2px solid #b9e7dc;
     border-radius: 50%;
 }
 
-.custom-toggler:hover {
-    background: #b9e7dc;
+.logo-toggler .rings::after {
+    inset: 8px;
 }
 
-.custom-toggler:hover span {
-    border-color: white;
+.logo-toggler:hover .rings,
+.logo-toggler:hover .rings::before,
+.logo-toggler:hover .rings::after {
+    border-color: #7bcfbe;
 }
 
-.custom-toggler:focus {
+.logo-toggler:focus {
     outline: none;
     box-shadow: none;
 }
-
+	
 
 
 	
@@ -760,39 +769,49 @@ button:focus {
 }
 
 
-	.custom-toggler {
-    width: 48px;
-    height: 48px;
-    border: 2px solid #b9e7dc;
-    border-radius: 50%;
+	.logo-toggler {
+    width: 52px;
+    height: 52px;
+    border: none;
     background: transparent;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     padding: 0;
-    transition: .3s;
 }
 
-.custom-toggler span {
-    width: 18px;
-    height: 18px;
+.logo-toggler .rings {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid #b9e7dc;
+    position: relative;
+}
+
+.logo-toggler .rings::before,
+.logo-toggler .rings::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
     border: 2px solid #b9e7dc;
     border-radius: 50%;
 }
 
-.custom-toggler:hover {
-    background: #b9e7dc;
+.logo-toggler .rings::after {
+    inset: 8px;
 }
 
-.custom-toggler:hover span {
-    border-color: white;
+.logo-toggler:hover .rings,
+.logo-toggler:hover .rings::before,
+.logo-toggler:hover .rings::after {
+    border-color: #7bcfbe;
 }
 
-.custom-toggler:focus {
+.logo-toggler:focus {
     outline: none;
     box-shadow: none;
 }
-
+	
 
 	
 
