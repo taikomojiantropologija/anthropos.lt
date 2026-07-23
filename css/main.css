@@ -616,7 +616,6 @@ button:focus {
   margin-left: auto; /* pushes to right */
 }
 
-
 .dropdown-toggle::after {
   display: none;
 }
@@ -632,23 +631,8 @@ button:focus {
   display: none;
   }
 
-#kulturureprezentavimas {
-	 height: 600px;
-  background: url(../img/blog/baneris_kulturu.jpg) fixed no-repeat;
-  background-size: cover;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-}
 
-#erasmus_reprezentacijos {
-	 height: 600px;
-  background: url(../img/blog/baneris_erasmus.jpg) fixed no-repeat;
-  background-size: cover;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-}
+
 
 
 /* only small tablets */
@@ -657,27 +641,10 @@ button:focus {
 #nav-main li a.nav-link {
     padding-top: 19px;
   }
-#veiksmas .contents h1 {
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 25px;
-} 
-#veiksmas .contents {
-  padding: 200px 0 130px;
- }
+
 #posters .contents {
   padding: 200px 0 130px;
-#maistas .contents h1 {
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 25px;
 } 
-#maistas .contents {
-  padding: 200px 0 130px;
- }
-}
 	
  .aprasymas {
 	margin-top: 100px;
@@ -689,30 +656,14 @@ button:focus {
     text-align: justify;
     text-indent: 50px;
 }
+
 #posters .contents h1 {
   color: #fff;
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 25px;
 }
-#nesvaistykime .contents h1 {
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 25px;
-} 
-#nesvaistykime .contents {
-  padding: 200px 0 130px;
-}
-#erasmus_reprezentacijos .contents h1 {
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 25px;
-} 
-#erasmus_reprezentacijos .contents {
-  padding: 200px 0 130px;
-}	
+
 	.youtube-video-container {
   position: relative;
   overflow: hidden;
@@ -733,9 +684,6 @@ button:focus {
   height: 100%;
 }
 	
-	
-
-	
 		.navbar-toggler {
   display: none;
 }
@@ -746,13 +694,7 @@ button:focus {
 
 .slicknav_menu {
   display: none;
-}
-
-
-
-	
-
-	
+}	
 }
 
 
@@ -773,6 +715,7 @@ button:focus {
 	.navbar-brand img {
     width: 60%;
   }
+	
  #mobile-menu {
     display: none;
   
@@ -796,6 +739,7 @@ button:focus {
     background: #f8f9fa;
     color: #61D2B4;
   }
+	
 #posters .contents h1 {
   color: #fff;
   font-size: 12px;
@@ -810,22 +754,16 @@ button:focus {
   max-height: 300px;
 }
 
-#maistas .contents h1 {
-  color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  margin-bottom: 25px;
-  }
-#maistas {
-  max-height: 300px;
-  }
-
- #maistas .contents {
-  padding: 150px 0 130px;
-  max-height: 300px;
+	.aprasymas{
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	font-size: 10px;
+	/*line-height: 0.5;*/
+	text-align: justify;
+	/*text-indent: 50px;*/
 }
-#maistas .contents {
-  padding: 150px 0 130px;}
 
 	.aprasymas{
 	margin-top: 30px;
@@ -838,73 +776,6 @@ button:focus {
 	/*text-indent: 50px;*/
 }
 
- #veiksmas .contents h1 {
-  color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  margin-bottom: 25px;
-  }
-#veiksmas {
-  max-height: 300px;
-  }
-#veiksmas .contents {
-  padding: 150px 0 130px;
-  max-height: 300px;
-}
-#veiksmas .contents {
-  padding: 150px 0 130px;}
-	.aprasymas{
-	margin-top: 30px;
-	margin-right: 30px;
-	margin-bottom: 30px;
-	margin-left: 30px;
-	font-size: 10px;
-	/*line-height: 0.5;*/
-	text-align: justify;
-	/*text-indent: 50px;*/
-}
-
-#kulturureprezentavimas {
-  background: url(../img/blog/baneris-kulturu.jpg) no-repeat;
-  background-size: cover;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-}
-
-#erasmus_reprezentacijos {
-  background: url(../img/blog/baneris_erasmus.jpg) no-repeat;
-  background-size: cover;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-}
-
-#nesvaistykime .contents h1 {
-  color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  margin-bottom: 25px;
-  }
-#nesvaistykime {
-  max-height: 300px;
-  }
-#nesvaistykime .contents {
-  padding: 150px 0 130px;
-  max-height: 300px;
-}
-#nesvaistykime .contents {
-  padding: 150px 0 130px;}
-	.aprasymas{
-	margin-top: 30px;
-	margin-right: 30px;
-	margin-bottom: 30px;
-	margin-left: 30px;
-	font-size: 10px;
-	/*line-height: 0.5;*/
-	text-align: justify;
-	/*text-indent: 50px;*/
-}
 	.youtube-video-container {
   position: relative;
   overflow: hidden;
@@ -926,23 +797,12 @@ button:focus {
 }
 }
 
+
 @media screen and (min-width: 900px) {
 #hero-area {
     height: 600px;
     }
-#maistas {
-    height: 600px;
-    }
 #posters {
-    height: 600px;
-    }
-#veiksmas {
-    height: 600px;
-    }
-#nesvaistykime {
-    height: 600px;
-    }
-#erasmus_reprezentacijos {
     height: 600px;
     }
 .aprasymas{
@@ -955,31 +815,15 @@ button:focus {
     text-align: justify;
     text-indent: 50px;
 	}
-#maistas .contents h1 {
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 25px;
-} 
-#maistas .contents {
-  padding: 200px 0 130px;
-  }
+
 #posters .contents h1 {
   color: #fff;
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 25px;
 } 
+	
 #posters .contents {
-  padding: 200px 0 130px;
-  }
-#veiksmas .contents h1 {
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 25px;
-} 
-#veiksmas .contents {
   padding: 200px 0 130px;
   }
 	
