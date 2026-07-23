@@ -634,7 +634,7 @@ button:focus {
 
 
 /* only small tablets */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
 	
 #nav-main li a.nav-link {
     padding-top: 19px;
@@ -793,7 +793,7 @@ button:focus {
   height: 100%;
 }
 	.navbar-toggler {
-  display: block;
+  display: block !important;;
 }
 
 .mobile-menu {
@@ -806,7 +806,7 @@ button:focus {
 }
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
 #hero-area {
     height: 600px;
     }
@@ -855,7 +855,7 @@ button:focus {
   height: 100%;
 }
 	.navbar-toggler {
-  display: none;
+  display: none !important;
 }
 
 .mobile-menu {
