@@ -684,8 +684,8 @@ button:focus {
   height: 100%;
 }
 	
-		.navbar-toggler {
-  display: none;
+.navbar-toggler {
+  display: block;
 }
 
 .mobile-menu {
