@@ -633,8 +633,6 @@ button:focus {
 
 
 
-
-
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
 	
@@ -683,9 +681,8 @@ button:focus {
   width: 100%;
   height: 100%;
 }
-	
 .navbar-toggler {
-  display: block;
+  display: none;
 }
 
 .mobile-menu {
@@ -694,7 +691,7 @@ button:focus {
 
 .slicknav_menu {
   display: none;
-}	
+}
 }
 
 
@@ -795,6 +792,17 @@ button:focus {
   width: 100%;
   height: 100%;
 }
+	.navbar-toggler {
+  display: block;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.slicknav_menu {
+  display: none;
+}
 }
 
 
@@ -845,6 +853,17 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
+}
+	.navbar-toggler {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.slicknav_menu {
+  display: none;
 }
 }
 
