@@ -608,6 +608,28 @@ button:focus {
   align-items: center;
 }
 
+
+
+
+
+.navbar-brand img {
+    height: 80px; /* adjust your logo size */
+}
+
+.navbar-toggler {
+    margin-left: auto; /* pushes button to the right */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background: #98D6C1; /* your circle color */
+    cursor: pointer;
+}
+
+
+
+
+
 .center-menu {
   margin: 0 auto; /* stays centered */
 }
@@ -691,15 +713,23 @@ button:focus {
     width: 48px;
     height: 48px;
     padding: 0;
-    border: 2px solid #b8e5dc; /* Change color if desired */
+    border: 2px solid #98D6C1; /* Change color if desired */
     border-radius: 50%;
     background: transparent;
     transition: all 0.3s ease;
 }
 
-.circle-toggler:hover {
-    background: rgba(184, 229, 220, 0.15);
-    border-color: #8fd3c4;
+
+/* Closed menu - solid circle */
+.circle-toggler.collapsed {
+    background: #98D6C1;
+    border-color: #98D6C1;
+}
+
+/* Open menu - outline circle */
+.circle-toggler:not(.collapsed) {
+    background: transparent;
+    border-color: #98D6C1;
 }
 
 .circle-toggler:focus {
@@ -759,9 +789,18 @@ button:focus {
     transition: all 0.3s ease;
 }
 
-.circle-toggler:hover {
-    background: rgba(184, 229, 220, 0.15);
-    border-color: #8fd3c4;
+
+
+/* Closed menu - solid circle */
+.circle-toggler.collapsed {
+    background: #98D6C1;
+    border-color: #98D6C1;
+}
+
+/* Open menu - outline circle */
+.circle-toggler:not(.collapsed) {
+    background: transparent;
+    border-color: #98D6C1;
 }
 
 .circle-toggler:focus {
