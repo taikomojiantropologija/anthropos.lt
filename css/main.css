@@ -529,7 +529,7 @@ button:focus {
    4. Navbar Style
    ========================================================================== */
 .navbar-brand {
-  position: center;
+  margin-left: auto;
   padding: 0px;
 }
 
@@ -606,6 +606,7 @@ button:focus {
 .navbar {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 
