@@ -612,18 +612,6 @@ button:focus {
     white-space: nowrap;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.navbar .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
 
 
 
@@ -636,7 +624,6 @@ button:focus {
     background: #98D6C1; /* your circle color */
     cursor: pointer;
 }
-
 
 
 
