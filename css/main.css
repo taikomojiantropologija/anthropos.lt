@@ -684,7 +684,7 @@ button:focus {
 }
 
 	.youtube-video-container {
-  position: relative;
+  position: center;
   overflow: hidden;
   width: 100%;
 }
@@ -856,7 +856,7 @@ button:focus {
 }
 
 	.youtube-video-container {
-  position: relative;
+  position: center;
   overflow: hidden;
   width: 100%;
 }
@@ -907,7 +907,7 @@ button:focus {
   }
 	
 	.youtube-video-container {
-  position: relative;
+  position: center;
   overflow: hidden;
   width: 100%;
 }
