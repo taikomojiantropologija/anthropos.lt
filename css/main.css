@@ -532,14 +532,14 @@ button:focus {
   margin: 0;
     padding: 0;
     display: flex;
-    align-items: left;
+    align-items: center;
 }
 
 .navbar-brand img {
     display: block;
-    max-height: 40px;   /* adjust as needed */
+    max-height: 20px;   /* adjust as needed */
     width: auto;
-	align-items: left;
+	align-items: center;
 }
 
 .top-nav-collapse {
@@ -605,7 +605,7 @@ button:focus {
 
 .navbar img {
 	 display: block;
-    max-height: 60px;
+    max-height: 20px;
     width: auto;
 }
 
