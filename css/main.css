@@ -537,7 +537,7 @@ button:focus {
 
 .navbar-brand img {
     display: block;
-    max-height: 20px;   /* adjust as needed */
+    max-height: 30px;   /* adjust as needed */
     width: auto;
 	align-items: center;
 }
@@ -605,7 +605,7 @@ button:focus {
 
 .navbar img {
 	 display: block;
-    max-height: 20px;
+    max-height: 30px;
     width: auto;
 }
 
