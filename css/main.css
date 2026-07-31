@@ -722,13 +722,32 @@ button:focus {
     background: #98D6C1;
     border-color: #98D6C1;
 }
-
+/* The three horizontal lines */
+.circle-toggler span {
+    width: 16px;
+    height: 2px;
+    background: #000;
+    border-radius: 2px;
+    transition: all .3s ease;
+}
 /* Open menu - outline circle */
 .circle-toggler:not(.collapsed) {
     background: transparent;
     border-color: #98D6C1;
 }
 
+.circle-toggler:not(.collapsed) span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.circle-toggler:not(.collapsed) span:nth-child(2) {
+    opacity: 0;
+}
+
+.circle-toggler:not(.collapsed) span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+}
+	
 .circle-toggler:focus {
     outline: none;
     box-shadow: none;
@@ -781,7 +800,14 @@ button:focus {
     background: transparent;
     transition: all 0.3s ease;
 }
-
+/* The three horizontal lines */
+.circle-toggler span {
+    width: 16px;
+    height: 2px;
+    background: #000;
+    border-radius: 2px;
+    transition: all .3s ease;
+}
 
 
 /* Closed menu - solid circle */
@@ -796,6 +822,18 @@ button:focus {
     border-color: #98D6C1;
 }
 
+.circle-toggler:not(.collapsed) span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.circle-toggler:not(.collapsed) span:nth-child(2) {
+    opacity: 0;
+}
+
+.circle-toggler:not(.collapsed) span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+}
+	
 .circle-toggler:focus {
     outline: none;
     box-shadow: none;
