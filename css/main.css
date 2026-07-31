@@ -655,8 +655,8 @@ button:focus {
 
 
 
-/* only small tablets */
-@media (min-width: 769px) and (max-width: 991px) {
+/* tablets */
+@media (min-width: 768px) and (max-width: 991.98px) {
 	
 #nav-main li a.nav-link {
     padding-top: 19px;
@@ -766,8 +766,8 @@ button:focus {
 }
 
 
-
-@media screen and (max-width: 768px) {
+ /* mobile */
+@media screen and (max-width: 767.98px) {
  
 	.navbar-header {
     width: 90%;
@@ -919,7 +919,7 @@ button:focus {
 }
 }
 
-
+ /* desktop */
 @media screen and (min-width: 992px) {
 #hero-area {
     height: 600px;
