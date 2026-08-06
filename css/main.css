@@ -1444,14 +1444,16 @@ button:focus {
 }
 .text-team-overlay {
 color: white;
-  font-size: 10px;
+    font-size: 18px;      /* Increase from the current size */
+    line-height: 1.6;      /* Makes it easier to read */
+    font-weight: 400;      /* Optional */
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 20%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
 }
 
 .single-team .team-inner {
