@@ -1446,11 +1446,11 @@ button:focus {
 .text-team-overlay {
 color: white;
     font-size: 12px;      /* Increase from the current size */
-    line-height: 1.5;      /* Makes it easier to read */
-    font-weight: 400;      /* Optional */
-  position: absolute;
-  top: 50%;
-  left: 50%;
+    line-height: 1.1;      /* Makes it easier to read */
+    font-weight: 300;      /* Optional */
+  position: relative;
+  top: 50px;
+  left: 50px;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
