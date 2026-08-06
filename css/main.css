@@ -714,6 +714,7 @@ button:focus {
     border-radius: 50%;
     background: transparent;
     transition: all 0.3s ease;
+		position: relative;
 }
 
 
