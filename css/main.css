@@ -1440,8 +1440,8 @@ button:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 300%;
-  width: 300%;
+  height: 100%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #61D2B4;
