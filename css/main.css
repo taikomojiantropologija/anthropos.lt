@@ -707,8 +707,8 @@ button:focus {
   display: block !important;
 }
 	.circle-toggler {
-    width: 48px;
-    height: 48px;
+    width: 58px;
+    height: 58px;
     padding: 0;
     border: 2px solid #98D6C1; /* Change color if desired */
     border-radius: 50%;
@@ -717,23 +717,25 @@ button:focus {
 }
 
 
-/* Closed state */
-.circle-toggler::before {
+/* Center the text, menu open */
+.circle-toggler::after {
     content: "MENU";
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 11px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 1px;
+    color: #222;
 }
 
-/* Open state */
-.circle-toggler[aria-expanded="true"]::before {
+/* When menu is open */
+.circle-toggler[aria-expanded="true"]::after {
     content: "✕";
     font-size: 28px;
     font-weight: 300;
+    line-height: 1;
 }
 
 .circle-toggler:not(.collapsed) span:nth-child(1) {
@@ -789,44 +791,36 @@ button:focus {
 }
 
 
-	
-
-	.circle-toggler {
-    width: 48px;
-    height: 48px;
+.circle-toggler {
+    width: 58px;
+    height: 58px;
     padding: 0;
-    border: 2px solid #b8e5dc; /* Change color if desired */
+    border: 2px solid #98D6C1; /* Change color if desired */
     border-radius: 50%;
     background: transparent;
     transition: all 0.3s ease;
 }
-/* The three horizontal lines */
-.circle-toggler span {
-    width: 16px;
-    height: 2px;
-    background: #000;
-    border-radius: 2px;
-    transition: all .3s ease;
-}
 
 
-/* Closed state */
-.circle-toggler::before {
+/* Center the text, menu open */
+.circle-toggler::after {
     content: "MENU";
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 11px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 1px;
+    color: #222;
 }
 
-/* Open state */
-.circle-toggler[aria-expanded="true"]::before {
+/* When menu is open */
+.circle-toggler[aria-expanded="true"]::after {
     content: "✕";
     font-size: 28px;
     font-weight: 300;
+    line-height: 1;
 }
 
 .circle-toggler:not(.collapsed) span:nth-child(1) {
