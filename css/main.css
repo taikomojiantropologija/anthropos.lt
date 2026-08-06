@@ -715,7 +715,13 @@ button:focus {
     background: transparent;
     transition: all 0.3s ease;
 		position: relative;
+display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
 }
+
 
 
 
@@ -791,41 +797,38 @@ button:focus {
     border-radius: 50%;
     background: transparent;
     transition: all 0.3s ease;
-	position: relative;
+		position: relative;
+display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
 }
 
 
-/* Center the text, menu open */
-.circle-toggler::after {
-    content: "MENU";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+
+
+.menu-text {
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 1px;
     color: #222;
-}
-
-/* When menu is open */
-.circle-toggler[aria-expanded="true"]::after {
-    content: "✕";
-    font-size: 28px;
-    font-weight: 300;
     line-height: 1;
 }
 
-.circle-toggler:not(.collapsed) span:nth-child(1) {
-    transform: translateY(6px) rotate(45deg);
+
+
+	
+
+.circle-toggler[aria-expanded="true"] .menu-text {
+    font-size: 0;
 }
 
-.circle-toggler:not(.collapsed) span:nth-child(2) {
-    opacity: 0;
-}
-
-.circle-toggler:not(.collapsed) span:nth-child(3) {
-    transform: translateY(-6px) rotate(-45deg);
+.circle-toggler[aria-expanded="true"] .menu-text::before {
+    content: "✕";
+    font-size: 28px;
+    font-weight: 300;
 }
 	
 .circle-toggler:focus {
