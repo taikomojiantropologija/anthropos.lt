@@ -1440,8 +1440,8 @@ button:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  height: 300%;
+  width: 300%;
   opacity: 0;
   transition: .5s ease;
   background-color: #61D2B4;
@@ -1451,7 +1451,7 @@ button:focus {
 }
 .text-team-overlay {
 color: white;
-    font-size: 11px;      /* Increase from the current size */
+    font-size: 12px;      /* Increase from the current size */
     line-height: 1.0;      /* Makes it easier to read */
     font-weight: 400;      /* Optional */
   position: absolute;
@@ -1735,204 +1735,7 @@ footer {
     text-indent: 50px;
 }*/
 
-#maistas {
-  height: 600px;
-  background: url(../img/blog/img1.jpg) fixed no-repeat;
-  background-size: cover;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-}
 
-#maistas .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  background: #61D2B4;
-  opacity: 0.9;
-}
-
-/*#maistas .contents {
-  padding: 200px 0 130px;
-}*/
-
-/*#maistas .contents h1 {
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 25px;
-}*/
-
-#maistas .contents p {
-  font-size: 14px;
-  color: #fff;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.5px;
-}
-
-#maistas .contents .btn {
-  margin: 25px 25px 0px 0px;
-  text-transform: uppercase;
-}
-
-#maistas .banner_bottom_btn {
-  margin-top: 40px;
-}
-
-#maistas .banner_bottom_btn i {
-  color: #fff;
-  font-size: 48px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-#maistas .banner_bottom_btn i:hover {
-  color: #61D2B4;
-}
-
-#veiksmas {
-  height: 600px;
-  background: url(../img/blog/img2.jpg) fixed no-repeat;
-  background-size: cover;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-}
-
-#veiksmas .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  background: #61D2B4;
-  opacity: 0.9;
-}
-
-/*#veiksmas .contents {
-  padding: 200px 0 130px;
-}*/
-
-/*#veiksmas .contents h1 {
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 25px;
-}*/
-
-#veiksmas .contents p {
-  font-size: 14px;
-  color: #fff;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.5px;
-}
-
-#veiksmas .contents .btn {
-  margin: 25px 25px 0px 0px;
-  text-transform: uppercase;
-}
-
-#veiksmas .banner_bottom_btn {
-  margin-top: 40px;
-}
-
-#veiksmas .banner_bottom_btn i {
-  color: #fff;
-  font-size: 48px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-#veiksmas .banner_bottom_btn i:hover {
-  color: #61D2B4;
-}
-
-#nesvaistykime {
-  height: 600px;
-  background: url(../img/blog/food.png) fixed no-repeat;
-  background-size: cover;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-}
-
-#nesvaistykime .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  background: #61D2B4;
-  opacity: 0.9;
-}
-
-/*#nesvaistykime .contents {
-  padding: 200px 0 130px;
-}*/
-
-/*#nesvaistykime .contents h1 {
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 25px;
-}*/
-
-#nesvaistykime .contents p {
-  font-size: 14px;
-  color: #fff;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.5px;
-}
-
-#nesvaistykime .contents .btn {
-  margin: 25px 25px 0px 0px;
-  text-transform: uppercase;
-}
-
-#nesvaistykime .banner_bottom_btn {
-  margin-top: 40px;
-}
-
-#nesvaistykime .banner_bottom_btn i {
-  color: #fff;
-  font-size: 48px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-#nesvaistykime .banner_bottom_btn i:hover {
-  color: #61D2B4;
-}
-
-#erasmus_reprezentacijos {
-  height: 600px;
-  background: url(../img/blog/baneris_erasmus.jpg) fixed no-repeat;
-  background-size: cover;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-}
-
-#nesvaistykime .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  background: #61D2B4;
-  opacity: 0.9;
-}
 
 @media only screen and (min-width: 700px){
 .mobile-posteriai {
@@ -2073,32 +1876,7 @@ text-align: center;
   opacity: 0.6;
   }
 }
-	#kulturureprezentavimas {
-  background: url(../img/blog/baneris-kulturu.jpg) no-repeat;
-  background-size: contain;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-  height: 150px;
-}
 
-	#erasmus_reprezentacijos {
-  background: url(../img/blog/baneris_erasmus.jpg) no-repeat;
-  background-size: contain;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-  height: 150px;
-}
-	
-	#nesvaistykime {
-  background: url(../img/blog/food.png) no-repeat;
-  background-size: contain;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-  height: 150px;
-}
 	.brands_slider_container {
 		height: 10px;
     padding-left: 7px;
