@@ -706,25 +706,24 @@ button:focus {
 .navbar-toggler {
   display: block !important;
 }
+
+
+
+
+	
 	.circle-toggler {
     width: 58px;
     height: 58px;
     padding: 0;
-    border: 4px solid #98D6C1; /* Change color if desired */
+    border: 4px solid #98D6C1;
     border-radius: 50%;
     background: transparent;
     transition: all 0.3s ease;
-		position: relative;
-display: flex;
+    position: relative;
+    display: flex;
     justify-content: center;
     align-items: center;
-
-    padding: 0;
 }
-
-
-
-
 
 .menu-text {
     font-size: 11px;
@@ -734,9 +733,13 @@ display: flex;
     line-height: 1;
 }
 
-
-
-	
+/* OPEN */
+.circle-toggler[aria-expanded="true"] {
+    border: none;
+    background: transparent;
+    width: auto;
+    height: auto;
+}
 
 .circle-toggler[aria-expanded="true"] .menu-text {
     font-size: 0;
@@ -744,16 +747,22 @@ display: flex;
 
 .circle-toggler[aria-expanded="true"] .menu-text::before {
     content: "✕";
-    font-size: 28px;
+    font-size: 34px;
     font-weight: 300;
+    color: #222;
+    line-height: 1;
 }
-	
+
 .circle-toggler:focus {
     outline: none;
     box-shadow: none;
 }
 	
 
+
+
+
+	
 
 	
 .mobile-menu {
@@ -793,21 +802,15 @@ display: flex;
     width: 58px;
     height: 58px;
     padding: 0;
-    border: 4px solid #98D6C1; /* Change color if desired */
+    border: 4px solid #98D6C1;
     border-radius: 50%;
     background: transparent;
     transition: all 0.3s ease;
-		position: relative;
-display: flex;
+    position: relative;
+    display: flex;
     justify-content: center;
     align-items: center;
-
-    padding: 0;
 }
-
-
-
-
 
 .menu-text {
     font-size: 11px;
@@ -817,9 +820,13 @@ display: flex;
     line-height: 1;
 }
 
-
-
-	
+/* OPEN */
+.circle-toggler[aria-expanded="true"] {
+    border: none;
+    background: transparent;
+    width: auto;
+    height: auto;
+}
 
 .circle-toggler[aria-expanded="true"] .menu-text {
     font-size: 0;
@@ -827,15 +834,20 @@ display: flex;
 
 .circle-toggler[aria-expanded="true"] .menu-text::before {
     content: "✕";
-    font-size: 28px;
+    font-size: 34px;
     font-weight: 300;
+    color: #222;
+    line-height: 1;
 }
-	
+
 .circle-toggler:focus {
     outline: none;
     box-shadow: none;
 }
 
+
+
+	
 	
 	
 
