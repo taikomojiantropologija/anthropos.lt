@@ -1461,17 +1461,21 @@ button:focus {
   opacity: 1;
 }
 .text-team-overlay {
-color: white;
-    font-size: 13px;      /* Increase from the current size */
-    line-height: 1.1;      /* Makes it easier to read */
-    font-weight: 300;      /* Optional */
-  position: sticky;
-  top: 20%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+    color: white;
+    font-size: 13px;
+    line-height: 1.1;
+    font-weight: 300;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 80%;
+    transform: translate(-50%, -50%);
+
+    text-align: justify;
+    text-align-last: left;
+    box-sizing: border-box;
 }
 
 .single-team .team-inner {
